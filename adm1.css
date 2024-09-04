@@ -1,0 +1,35 @@
+.Blocos{
+    width: 533px;
+    height:540px;
+    background-color: rgb(189, 119, 255);
+    margin-right: 10%;
+    margin-left: 110px;
+}
+
+.painelP{
+
+    display: flex;
+    height: 700px;
+    width: 70%;
+    background-color: rgb(211, 211, 211);
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#aside1{
+    background-color:#6E6E82;
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+
+#hea1{
+    font-size: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: rgb(189, 119, 255);
+    height: 90px;
+}
