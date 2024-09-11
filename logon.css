@@ -1,0 +1,25 @@
+#main{
+    border-radius: 10px;
+    background-color:#ece9ec;
+    padding: 20px;
+}
+
+.detalhe{
+    width:100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    display:inline-block;
+    border-radius:5px;
+    margin: 3px 0;
+    padding:12px 20px;
+}
+
+#botao{
+    background-color: rgb(167, 40, 167);
+    width:100%;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius: 5px ;
+    margin:8px 0;
+}
