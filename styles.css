@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #9f87e4;
+    background-color: #6F53A9;
     padding: 10px 20px;
     color: white;
     display: flex;
@@ -23,8 +23,10 @@ header {
 }
 
 header .logo {
+ 
     font-size: 24px;
     font-weight: bold;
+    background-color: #6F53A9;
 }
 
 header nav a {
@@ -44,7 +46,7 @@ header nav a:hover {
 
 .sidebar {
     width: 250px;
-    background-color: #5b5b72;
+    background-color: #6F53A9;
     color: white;
     padding: 20px;
     display: flex;
@@ -84,7 +86,7 @@ header nav a:hover {
     font-size: 16px;
     display: block;
     padding: 10px;
-    background-color: #454562;
+    background-color: #6F53A9;
     border-radius: 5px;
 }
 
@@ -201,7 +203,7 @@ form button {
     margin-top: 20px;
     padding: 10px;
     font-size: 1em;
-    background-color: #6c63ff;
+    background-color: #6F53A9;
     color: white;
     border: none;
     border-radius: 4px;
@@ -221,4 +223,63 @@ form button:hover {
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
+}
+
+
+
+.notifications-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.notification-list {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.notification {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.notification.unread {
+    background-color: #fff9c4;
+}
+
+.notification p {
+    margin: 0;
+}
+
+.notification .time {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #6F53A9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #564083;
 }
