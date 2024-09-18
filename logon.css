@@ -1,7 +1,10 @@
 #main{
+    height: 700px;
+    width: 300px;
     border-radius: 10px;
-    background-color:#ece9ec;
+    background-color:#8e5d8e;
     padding: 20px;
+    display: block;
 }
 
 .detalhe{
@@ -15,11 +18,20 @@
 }
 
 #botao{
-    background-color: rgb(167, 40, 167);
-    width:100%;
-    color:white;
-    padding:10px 20px;
-    border:none;
-    border-radius: 5px ;
-    margin:8px 0;
+    height: 30px;
+    width:70px;
+    background-color: #dfdcdc;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }

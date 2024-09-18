@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Festival</title>
+</head>
+<body>
+    <h1>Criar Novo Festival</h1>
+    <form action="criar_festival.php" method="POST">
+        <label for="nome">Nome do Festival:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="datainicio">Data de Início:</label>
+        <input type="date" id="datainicio" name="datainicio" required><br><br>
+
+        <label for="datafim">Data de Fim:</label>
+        <input type="date" id="datafim" name="datafim" required><br><br>
+
+        <label for="local">Local do Festival:</label>
+        <input type="text" id="local" name="local" required><br><br>
+
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao"></textarea><br><br>
+
+        <label for="status">Status do Festival:</label>
+        <input type="text" id="status" name="status" required><br><br>
+
+        <button type="submit">Criar Festival</button>
+    </form>
+</body>
+</html>

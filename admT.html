@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVALIAFEST - Painel de Controle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">AVALIAFEST</div>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">logout</a>
+        </nav>
+    </header>
+
+    
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="profile.png" alt="Foto de perfil">
+                <h2>Ryan Christian</h2>
+                <p>Administrador</p>
+            </div>
+            <ul class="menu">
+                <li><a href="#" onclick="showSection('aprovados')">Projetos Aprovados</a></li>
+                <li><a href="#" onclick="showSection('reprovados')">Projetos Reprovados</a></li>
+                <li><a href="listar_festivais.php" onclick="showSection('festivais')">Festivais</a></li>
+                <li><a href="#" onclick="showSection('notificacoes')">Notificações</a></li>
+                <li><a href="#" onclick="showSection('configuracoes')">Configurações</a></li>
+            </ul>
+        </aside>
+
+        <main class="dashboard">
+            <h1>Painel de Controle</h1>
+            <div class="grid">
+                <div class="card card-green">
+                    <a href="projetos_submetidos.html">Projetos Submetidos</a>
+                </div>
+                <div class="card card-red">
+                    <a href="criar_festival.php">Criar Festival</a>
+                </div>
+                <div class="card card-blue">
+                    <a href="gerenciar_projetos.html">Gerenciar Projetos</a>
+                </div>
+                <div class="card card-yellow">
+                    <a href="gerenciar_usuarios.html">Gerenciar Usuários</a>
+                </div>
+                <div id="aprovados" class="section hidden">
+                    <h2>Projetos Aprovados</h2>
+                    <p>Listagem e gerenciamento de todos os projetos aprovados.</p>
+                </div>
+    
+                <div id="reprovados" class="section hidden">
+                    <h2>Projetos Reprovados</h2>
+                    <p>Listagem e gerenciamento de todos os projetos reprovados.</p>
+                </div>
+    
+                <div id="festivais" class="section hidden">
+                    <h2>Festivais</h2>
+                    <p>Gestão de festivais, criação e edição de eventos.</p>
+                </div>
+    
+                <div id="notificacoes" class="section hidden">
+                    <h2>Notificações</h2>
+                    <p>Ver todas as notificações relevantes do sistema.</p>
+                </div>
+    
+                <div id="configuracoes" class="section hidden">
+                    <h2>Configurações</h2>
+                    <p>Gerenciar as configurações da conta e do sistema.</p>
+                </div>
+            </main>
+        </div>
+            </div>
+            
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

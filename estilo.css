@@ -88,4 +88,19 @@ section{
     font-weight: bold;
   }
 
- 
+ #log{
+    height: 30px;
+    width:70px;
+    background-color: #dfdcdc;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+    
+    
+
+ }
